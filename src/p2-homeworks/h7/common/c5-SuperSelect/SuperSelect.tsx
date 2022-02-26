@@ -19,8 +19,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
             <option
                 key={index}
                 value={o}
-                // selected={restProps.value===o}
-                onChange={(o)=>onChangeCallback}
                 >{o}</option>
         )
     }); // map options with key
